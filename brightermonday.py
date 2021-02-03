@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import sqlite3
 
-conn = sqlite3.connect("output.sqlite")
+conn = sqlite3.connect("output.db")
 cur = conn.cursor()
 
 headers = {
